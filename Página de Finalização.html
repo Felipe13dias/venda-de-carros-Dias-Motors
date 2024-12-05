@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Finalização</title>
+    <link rel="stylesheet" href="Página de Finalização.css">
+    <link rel="shortcut icon" href="carro.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>Último Passo Para Finalização da Compra</h1>
+        <p>Quase lá! Você está prestes a adquirir o carro dos seus sonhos!</p>
+    </header>
+    <main class="checkout-container">
+        <section class="car-info">
+            <div class="car-image-container">
+                <img src="imagem ilustrativa.jpg" alt="Imagem Ilustrativa">
+            </div>
+        </section>
+        <section class="payment-form">
+                <label for="name">Nome Completo</label>
+                <input type="text" id="name" name="name" placeholder="Nome Completo" required>
+                <label for="Formas de Pagamento">Formas de Pagamento</label>
+                <select id="payment-method" name="payment-method" required>
+                    <option value="" disabled selected>Formas de Pagamento</option>
+                    <option value="Cartão de Crédito/Débito">Cartão de Crédito/Débito</option>
+                    <option value="Boleto">Boleto Bancário</option>
+                    <option value="Pix">Pix</option>
+                </select>
+                <label for="Endereço">Endereço</label>
+                <input type="text" id="Endereço" name="Endereço" placeholder="Digite seu Endereço" required>
+
+                <label for="E-mail">E-mail</label>
+                <input type="text" id="Email" name="Email" placeholder="Digite seu E-mail" required>
+
+                <label for="Contato">Contato</label>
+                <input type="text" id="Contato" name="Contato" placeholder="Informe seu Contato" required>
+                <button type="submit">JÁ É MEU!</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
